@@ -1,8 +1,14 @@
 aid: bagel-labs
 name: Bagel Labs
-description: 'Bagel Labs is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai-data. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Bagel Labs is an AI research lab building distributed diffusion training
+  infrastructure for frontier diffusion workloads on commodity and heterogeneous GPU
+  fleets. Its core method, Distributed Diffusion Models (DDM), replaces a single large
+  diffusion model with an ensemble of smaller expert models trained independently on
+  dataset partitions with no gradient synchronization, then ensembled at inference by
+  a lightweight router (the Paris Inference Engine, PIE). Public releases include Paris-1
+  (image diffusion) and Paris 2.0 (video generation), with open weights on Hugging Face
+  and papers on arXiv. Founded in 2023 by Bidhan Roy and backed by Polychain Capital,
+  the lab targets image, video, world-model, and robotics / physical AI workloads.'
 url: https://raw.githubusercontent.com/api-evangelist/bagel-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - polychain
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.bagel.com/logo-full.svg
 tags:
 - Company
 - Ai Data
+- Artificial Intelligence
+- Machine Learning
+- Diffusion Models
+- Generative AI
+- Distributed Training
+- Research Lab
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://bagel.com
+- type: Documentation
+  url: https://docs.bagel.com
+- type: Blog
+  url: https://blog.bagel.com
+- type: Login
+  url: https://app.bagel.com
+- type: GitHubOrganization
+  url: https://github.com/bageldotcom
+- type: X
+  url: https://x.com/bageldotcom
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bageldotcom
+- type: HuggingFace
+  url: https://huggingface.co/bageldotcom
+- type: Careers
+  url: https://www.bagel.com/careers
+- type: LLMsTxt
+  url: llms/bagel-labs-llms.txt
+- type: DomainSecurity
+  url: security/bagel-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
