@@ -46,7 +46,7 @@ tags:
 - Company
 - Ai Data
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Diffusion Models
 - Generative AI
 - Distributed Training
@@ -60,6 +60,7 @@ tags_raw:
 - Generative AI
 - Distributed Training
 - Research Lab
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
